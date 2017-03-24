@@ -1,0 +1,74 @@
+body {
+  padding: 10px;
+  margin: 0;
+}
+
+table {
+  border: 40px solid #BCF8EC;
+  border-radius: 20%;
+  margin: auto;
+  padding: 1px;
+  font-size: 50px;
+  width: 400px;
+  text-align: center;
+  background: #BCF8EC;
+  font-family: Arial;
+  color: #fff;
+}
+
+table tr {
+  padding: 5px;
+}
+
+table tr td {
+  padding: 5px;
+  width: 1px;
+  cursor: pointer;
+  background-color: #7ED5BB;
+  transition: all .5s ease;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 30%;
+}
+
+table tr td input {
+  width: 370px;
+  height: 95px;
+  font-size: 60px;
+  padding: 0 15px;
+  letter-spacing: 5px;
+  font-family: "Calculator Digits"
+}
+
+table tr td:hover {
+  padding: 5px;
+  width: 1px;
+  background-color: #9FA0C3;
+  cursor: pointer;
+}
+
+table tr td:active {
+  padding: 5px;
+  width: 1px;
+  color: #000;
+  background-color: #FDED62;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 110px;
+  color: white;
+  margin-top: 0;
+  font-family: Arial;
+  padding: 20px;
+}
+
+#result {
+  border: 1px solid #fff;
+  border-radius: 30%;
+}
+
+
+}
